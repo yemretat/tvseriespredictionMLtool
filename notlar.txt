@@ -1,0 +1,35 @@
+packagejson node paket yönetiminde kurduğumuz paketlerin 
+confşgurasyonu
+
+npm node package json,açık kaynak şeyleri indirmek için kullan mesela
+reactı kullanmak için indir 
+
+Reactın güzel yanı uygulamanın tamamı değil de sadece ilgili kısmı render ediyor.
+
+fonksiyon componentler class comp. react hooks
+
+class componentlerin güzelliği sen başka fonks. yazıp onu da buradan çalıştırabilirsin
+
+bu locale node.js ortamı deniyor
+
+index.js ana javascript configurasyon dosyamız.
+
+index.html var publicde biz index.jsde diyoruz ki oraya git App'yi entegre entegre
+
+JSde aslında class diye bir şey yok.Arkada onu değiştiriyor.
+thisin kullanımı burada farklı.
+
+reactın key istemesinin nedeni her bir elemanı diğerinden ayıracak id ver bu döngüler için
+bunun nedeni sanaldomda re-render ederken daha hızlı yakalamak
+
+Reduxla state management olayı rahatlıyor
+
+appyi class componente çevirdik çünkü fonksiyon eklememiz lazım fonksiyon component olarak kalsa
+fonksiyon ekleyecez ekstradan o olmaz classa fonksiyon eklenir.
+
+javascriptde fonksiyonlar da bir değişkendir.
+
+!!!Hatayı görmek için direk f12 bas console'da hatayı gör.
+
+
+

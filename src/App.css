@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.castimage {
+  border-radius: 50%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.MuiAppBar-root {
+  background-image: linear-gradient(
+    135deg,
+    rgb(24, 42, 115) 0%,
+    rgb(33, 138, 174) 69%,
+    rgb(32, 167, 172) 89%
+  ) !important;
+}
+
+.linkappbar {
+  text-decoration: none;
+
+  color: #007bff;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+@media (max-width: 700px) {
+  .linkappbar {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .linkappbar {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+.linkappbar:hover {
+  background-color: white;
+}
+.container input[class="buttoncontinue"] {
+  display: inline-block;
+  color: #fff;
+  background-color: #22c1c3;
+  font-size: 1em;
+  text-align: center;
+
+  padding: 10px 15px;
+  border: 0;
+}
+.container input[class="buttoncontinuee"] {
+  display: inline-block;
+  color: #fff;
+  background-color: #22c1c3;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 10px 15px;
+  border: 0;
+  width: 200px;
+  height: 60px;
+}
+.container input[class="buttoncontinue3"] {
+  display: inline-block;
+  color: #fff;
+  background-color: #22c1c3;
+  font-size: 1em;
+  text-align: center;
+  padding: 10px 15px;
+  border: 0;
+}
+.container input[class="buttonback3"] {
+  display: inline-block;
+  color: #fff;
+  background-color: #22c1c3;
+  font-size: 1em;
+  text-align: center;
+  padding: 10px 15px;
+  border: 0;
+}
+.container input[type="submit"]:hover {
+  background-color: orange;
+}
+
+.container input[class="buttoncontinue2"] {
+  display: inline-block;
+  color: #fff;
+  background-color: #22c1c3;
+  font-size: 1em;
+  text-align: center;
+  padding: 10px 15px;
+  border: 0;
+}
+.container input[class="buttonback2"] {
+  display: inline-block;
+  color: #fff;
+  background-color: #22c1c3;
+  font-size: 1em;
+  text-align: center;
+  padding: 10px 15px;
+  border: 0;
+}
+
+header img {
+  width: 33vh;
+}
+.listdeneme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  height: 200px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+#country-select-demo {
+  justify-content: center;
+}
