@@ -1,0 +1,25 @@
+services:
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Crazybabygirl.87
+    image: mcr.microsoft.com/mssql/server
+    ports:
+    - 1433:1433/tcp
+  webapi:
+    build:
+      context: C:\Users\styunust\source\repos\TvSeriesBackend
+      dockerfile: WebAPI/Dockerfile
+    depends_on:
+    - db
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: webapi
+    ports:
+    - 80/tcp
+    - 443/tcp
+    volumes:
+    - C:\Users\styunust\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\styunust\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
