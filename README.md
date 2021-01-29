@@ -4,4 +4,4 @@
 
 The Web based ml tool created for the Academical project in the Sabanci to find a devised tv series success rate.
 
-![web based platform] (https://github.com/yemretat/tvseriespredictionMLtool/blob/master/images/Capture-min%20(2).PNG)
+![web based platform](https://github.com/yemretat/tvseriespredictionMLtool/blob/master/images/Capture-min%20(2).PNG)
